@@ -1,6 +1,5 @@
 import requests
 
-api_key = "EY1epB6RSKbLNpt2hlhMNO54LezSgHe9NMjiWMbB"
 api_url = f"https://api.nasa.gov/planetary/apod?api_key={api_key}"
 
 response = requests.get(api_url)
